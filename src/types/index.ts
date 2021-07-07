@@ -5,6 +5,7 @@ export interface iButtonProps {
     buttonType?: tButtonType
     className?: string
 }
+
 export interface iInputProps {
     placeholder?: string
     type: string
@@ -13,4 +14,5 @@ export interface iInputProps {
     maxLength?: number
     disabled?: boolean
     value?: string | number
+    inputRef?: any
 }
